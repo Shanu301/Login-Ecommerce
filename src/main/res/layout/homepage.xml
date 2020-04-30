@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.internshala.loginecommerce.Homepage"
+
+    android:background="@mipmap/homepage">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Product"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="411dp"
+        android:textStyle="bold|italic"
+        android:textColor="#FF6347"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.EasyRetail.co.in"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="71dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
